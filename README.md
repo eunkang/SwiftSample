@@ -1,3 +1,3 @@
 # SwiftSample
 
-Sample IOS app using swift
+Sample IOS app using swift for playing selected genre music. 
