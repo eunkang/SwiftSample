@@ -25,7 +25,7 @@
                                             <constraint firstAttribute="height" constant="60" id="cnp-em-6qb"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="R&amp;B/Soul">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -39,7 +39,7 @@
                                             <constraint firstAttribute="height" constant="60" id="7fB-9U-Ivg"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Jazz">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -53,7 +53,7 @@
                                             <constraint firstAttribute="height" constant="60" id="xTv-BT-mSu"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Hip-Hop/Rap">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>

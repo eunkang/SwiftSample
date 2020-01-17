@@ -8,12 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CCBE240123D14D1500958452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE240023D14D1500958452 /* AppDelegate.swift */; };
-		CCBE240323D14D1500958452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE240223D14D1500958452 /* SceneDelegate.swift */; };
 		CCBE240723D14D1B00958452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBE240623D14D1B00958452 /* Assets.xcassets */; };
-		CCBE240A23D14D1B00958452 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBE240923D14D1B00958452 /* Preview Assets.xcassets */; };
 		CCBE240D23D14D1B00958452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBE240B23D14D1B00958452 /* LaunchScreen.storyboard */; };
-		CCBE241823D14D1C00958452 /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE241723D14D1C00958452 /* MusicPlayerTests.swift */; };
-		CCBE242323D14D1C00958452 /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE242223D14D1C00958452 /* MusicPlayerUITests.swift */; };
 		CCBE243123D14E3800958452 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE243023D14E3800958452 /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,17 +33,11 @@
 /* Begin PBXFileReference section */
 		CCBE23FD23D14D1500958452 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBE240023D14D1500958452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCBE240223D14D1500958452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CCBE240623D14D1B00958452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CCBE240923D14D1B00958452 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CCBE240C23D14D1B00958452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCBE240E23D14D1B00958452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCBE241323D14D1C00958452 /* MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCBE241723D14D1C00958452 /* MusicPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerTests.swift; sourceTree = "<group>"; };
-		CCBE241923D14D1C00958452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCBE241E23D14D1C00958452 /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCBE242223D14D1C00958452 /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
-		CCBE242423D14D1C00958452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCBE243023D14E3800958452 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				CCBE23FF23D14D1500958452 /* MusicPlayer */,
-				CCBE241623D14D1C00958452 /* MusicPlayerTests */,
-				CCBE242123D14D1C00958452 /* MusicPlayerUITests */,
 				CCBE23FE23D14D1500958452 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,40 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				CCBE240023D14D1500958452 /* AppDelegate.swift */,
-				CCBE240223D14D1500958452 /* SceneDelegate.swift */,
 				CCBE243023D14E3800958452 /* GenreButtonScreen.swift */,
 				CCBE240623D14D1B00958452 /* Assets.xcassets */,
 				CCBE240B23D14D1B00958452 /* LaunchScreen.storyboard */,
 				CCBE240E23D14D1B00958452 /* Info.plist */,
-				CCBE240823D14D1B00958452 /* Preview Content */,
 			);
 			path = MusicPlayer;
-			sourceTree = "<group>";
-		};
-		CCBE240823D14D1B00958452 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				CCBE240923D14D1B00958452 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		CCBE241623D14D1C00958452 /* MusicPlayerTests */ = {
-			isa = PBXGroup;
-			children = (
-				CCBE241723D14D1C00958452 /* MusicPlayerTests.swift */,
-				CCBE241923D14D1C00958452 /* Info.plist */,
-			);
-			path = MusicPlayerTests;
-			sourceTree = "<group>";
-		};
-		CCBE242123D14D1C00958452 /* MusicPlayerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CCBE242223D14D1C00958452 /* MusicPlayerUITests.swift */,
-				CCBE242423D14D1C00958452 /* Info.plist */,
-			);
-			path = MusicPlayerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +201,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCBE240D23D14D1B00958452 /* LaunchScreen.storyboard in Resources */,
-				CCBE240A23D14D1B00958452 /* Preview Assets.xcassets in Resources */,
 				CCBE240723D14D1B00958452 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCBE240123D14D1500958452 /* AppDelegate.swift in Sources */,
-				CCBE240323D14D1500958452 /* SceneDelegate.swift in Sources */,
 				CCBE243123D14E3800958452 /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCBE241823D14D1C00958452 /* MusicPlayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCBE242323D14D1C00958452 /* MusicPlayerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
